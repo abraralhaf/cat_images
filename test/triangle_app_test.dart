@@ -14,7 +14,7 @@ void main() {
     expect(() => detectTriangle(5, 1, 3), throwsA(isA<Exception>()));
   });
 
-  test('Should return "Segitiga Sama Sisi" when all sides are equal', () {
+  test('Should return "Segitiga Sama Sisi" when all side are equal', () {
     expect(detectTriangle(1, 1, 1), "Segitiga Sama Sisi");
 
     expect(detectTriangle(2, 2, 1), isNot("Segitiga Sama Sisi"));
